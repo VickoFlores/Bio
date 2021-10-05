@@ -1,0 +1,58 @@
+.Contenedor{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+body{
+    /*background-color: rgba(212, 47, 47, 0.952);*/
+    background-image: url('../IMGS/leaves-5825458_640.jpg');
+    background-repeat: repeat;
+}
+
+h1{
+    font-family: 'Bunny Honey';
+    font-size: 15vw;
+    color: white;
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+#BIO{
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+ul{
+    list-style: none;
+    display: inline;
+
+}
+
+a, li {
+    font-family: Bunny Honey;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(155, 31, 31);
+    padding: 1vw;
+    margin: 2vw;
+    border-radius: 1vw;
+    text-align: center;
+}
+
+.Title{
+    display: block;
+    padding: 0px;
+    
+}
+.icon{
+    margin: auto;
+    display: inline;
+    
+}
