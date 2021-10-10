@@ -8,6 +8,23 @@
     grid-template-rows: 2;
 }
 
+
+
+@media screen and (max-width: 1000px) {
+
+    .Contenedor{
+        width:90%;
+    }
+
+    .fab{
+        font-size:10vw;
+    }
+
+    h1{
+        font-size:20w;
+    }
+}
+
 @media screen and (max-width: 800px) {
 
     .Contenedor{
