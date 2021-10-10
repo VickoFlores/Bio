@@ -51,7 +51,7 @@ h1{
     font-size: 15vw;
     color: white;
     text-align: center;
-    width: 80vw;
+   
     margin: auto;
     grid-column: 1/4;
     grid-row: 1/2;
