@@ -1,0 +1,115 @@
+.Contenedor{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+
+body{
+    /*background-color: rgba(212, 47, 47, 0.952);*/
+    background-image: url('../IMGS/leaves-5825458_640.jpg');
+    background-repeat: repeat;
+}
+
+h1{
+    font-family: 'Bunny Honey';
+    font-size: 15vw;
+    color: white;
+    text-align: center;
+    margin: auto;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+a {
+    font-family: Bunny Honey;
+    color: white;
+    text-align: center;
+}
+
+.icon :hover{
+    text-shadow: black 2px 3px 2px;
+}
+.icon{
+    text-align: center;
+    
+}
+
+.Link{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+.fab{
+    font-size: 6vw;
+    text-align: center;
+}
+
+#TO{
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+#Port{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+#Human{
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+#RS{
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+
+.Things{
+    background-color: rgb(155, 31, 31);
+    padding: 0vw;
+    border-radius: 1vw;
+    display: block;
+}
+
+.Things h2{
+    padding: 0vw;
+    margin: 0vw;
+    font-size: 6vw;
+    font-family: 'Bunny Honey';
+    color: white;
+    text-align: center;
+}
+
+.Link{
+    width: 90%;
+}
+
+.L1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.L2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.L3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.L4{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}

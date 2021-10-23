@@ -1,0 +1,57 @@
+@media (min-width: 600px) {
+    .Contenedor{
+        width: 95%;
+    }
+
+    h1{
+        color: white;
+        font-size: 10vw;
+    }
+    
+    .Link{
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .Contenedor{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 8vw;
+    }
+
+    .Link{
+        width: 85%;
+    }
+
+    #TO{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #Port{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #Human{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    #RS{
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+
+    .Things h2{
+        font-size: 4vw;
+    }
+
+    .Things .fab{
+        font-size: 4vw;
+    }
+}
