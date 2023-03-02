@@ -29,6 +29,7 @@ a {
     font-family: Bunny Honey;
     color: white;
     text-align: center;
+    text-decoration:none;
 }
 
 .icon :hover{
@@ -49,7 +50,7 @@ a {
     grid-template-rows: 2;
 }
 
-.fab{
+.bi{
     font-size: 6vw;
     text-align: center;
 }
